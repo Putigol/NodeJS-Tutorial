@@ -12,10 +12,11 @@
 //   console.log(`Server running at http://${hostname}:${port}/`);
 // });
 
-const express = require("express");
-const app = express();
-const port = 8081;
+const express = require("express"); //Common JS
+const app = express(); //app express
+const port = 8081; //port server
 
+// Khai báo route
 app.get("/", (req, res) => {
   res.send("Hello World!");
 });
