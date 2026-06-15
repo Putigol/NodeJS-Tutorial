@@ -1,0 +1,26 @@
+{
+  "name": "backend-nodejs-zero",
+  "version": "1.0.0",
+  "description": "Tu hoc NodeJS",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Putigol/NodeJS-Tutorial.git"
+  },
+  "keywords": [
+    "nodejs"
+  ],
+  "author": "Putigol",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Putigol/NodeJS-Tutorial/issues"
+  },
+  "homepage": "https://github.com/Putigol/NodeJS-Tutorial#readme",
+  "dependencies": {
+    "express": "4.18.2"
+  }
+}
