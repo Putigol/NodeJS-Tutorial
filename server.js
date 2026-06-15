@@ -17,8 +17,8 @@ const app = express(); //app express
 const port = 8081; //port server
 
 // Khai báo route
-app.get("/", (req, res) => {
-  res.send("Hello World!");
+app.get("/putigol", (req, res) => {
+  res.send(`<h1>Hello World</h1>`);
 });
 
 app.listen(port, () => {
