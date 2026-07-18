@@ -11,12 +11,14 @@ const hostname = process.env.HOSTNAME;
 //Khai báo nơi lưu trữ view
 app.set("views", path.join(__dirname, "views"));
 app.set("view engine", "ejs");
+//Config static file
+app.use(express.static(path.join(__dirname, "public")));
 // Khai báo route
 app.get("/", (req, res) => {
-  res.send("Hi there");
+  res.send("sample.ejs");
 });
 app.get("/putigol", (req, res) => {
-  res.render("sample");
+  res.render("sample.ejs");
 });
 
 app.listen(port, hostname, () => {
